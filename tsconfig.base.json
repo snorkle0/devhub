@@ -15,6 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@devhub-workspace/about": ["libs/about/src/index.ts"],
+      "@devhub-workspace/blog": ["libs/blog/src/index.ts"],
+      "@devhub-workspace/contact": ["libs/contact/src/index.ts"],
+      "@devhub-workspace/projects": ["libs/projects/src/index.ts"],
+      "@devhub-workspace/resume": ["libs/resume/src/index.ts"],
       "@devhub-workspace/ui": ["libs/shared/ui/src/index.ts"]
     }
   },

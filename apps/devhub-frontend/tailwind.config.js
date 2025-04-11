@@ -7,6 +7,7 @@ module.exports = {
     join(__dirname, 'src/**/!(*.stories|*.spec).{ts,html}'),
     ...createGlobPatternsForDependencies(__dirname),
   ],
+  darkMode: 'class', // Enable class-based dark mode
   theme: {
     extend: {},
   },

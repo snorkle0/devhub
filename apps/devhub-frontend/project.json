@@ -19,6 +19,11 @@
           {
             "glob": "**/*",
             "input": "apps/devhub-frontend/public"
+          },
+          {
+            "glob": "**/*",
+            "input": "libs/shared/ui/src/assets",
+            "output": "assets"
           }
         ],
         "styles": ["apps/devhub-frontend/src/styles.css"],
